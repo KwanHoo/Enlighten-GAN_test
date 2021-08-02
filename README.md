@@ -68,3 +68,14 @@ processed = model.predict(img)
 14. dst7
 <img width="374" alt="dst7_screenshot_02 08 2021" src="https://user-images.githubusercontent.com/49335804/127863138-6aab02a5-7708-4623-8565-16f5cf500f98.png">
 
+15. src8
+<img src="https://user-images.githubusercontent.com/49335804/127866902-0ee2f04f-4731-45c3-bfda-16545c6e0fca.jpg" width="50%" height="50%"/>
+
+16. dst8
+<img width="665" alt="dst8_screenshot_02 08 2021" src="https://user-images.githubusercontent.com/49335804/127867064-58081221-f9ad-44d3-b974-2005a0cc23b0.png">
+
+17. src9
+<img src="https://user-images.githubusercontent.com/49335804/127866997-39175f32-36d6-4422-94d3-927f092c7582.jpg" width="50%" height="50%"/>
+
+18. dst9
+<img width="665" alt="dst9_screenshot_02 08 2021" src="https://user-images.githubusercontent.com/49335804/127867100-2cbfddc1-4bb3-4c47-8a89-5d4288beb056.png">
