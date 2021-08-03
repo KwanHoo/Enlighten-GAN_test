@@ -79,3 +79,19 @@ processed = model.predict(img)
 
 18. dst9
 <img width="665" alt="dst9_screenshot_02 08 2021" src="https://user-images.githubusercontent.com/49335804/127867100-2cbfddc1-4bb3-4c47-8a89-5d4288beb056.png">
+
+19. src10
+<img src="https://user-images.githubusercontent.com/49335804/128027254-ee47a56c-fe62-4dc0-bddf-3c6b5f921f24.jpg" width="50%" height="50%"/>
+
+20. dst10
+<img width="665" alt="dst10_screenshot_03 08 2021" src="https://user-images.githubusercontent.com/49335804/128027482-e886cd0c-fe72-4ab4-84d6-981f61f8975d.png">
+
+
+21. src11
+<img src="(https://user-images.githubusercontent.com/49335804/128027405-10a3b008-210e-4a43-b294-5bf484980c12.jpg" width="50%" height="50%"/>
+
+22. dst11
+<img width="1000" alt="크기변환 dst11_screenshot_03 08 2021" src="https://user-images.githubusercontent.com/49335804/128027969-2a058ae3-68e0-4369-a892-a6f0871214c3.png">
+
+
+
