@@ -88,7 +88,7 @@ processed = model.predict(img)
 
 
 21. src11
-<img src="(https://user-images.githubusercontent.com/49335804/128027405-10a3b008-210e-4a43-b294-5bf484980c12.jpg" width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/49335804/128027405-10a3b008-210e-4a43-b294-5bf484980c12.jpg" width="50%" height="50%"/>
 
 22. dst11
 <img width="1000" alt="크기변환 dst11_screenshot_03 08 2021" src="https://user-images.githubusercontent.com/49335804/128027969-2a058ae3-68e0-4369-a892-a6f0871214c3.png">
