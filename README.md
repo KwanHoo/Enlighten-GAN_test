@@ -91,7 +91,19 @@ processed = model.predict(img)
 <img src="https://user-images.githubusercontent.com/49335804/128027405-10a3b008-210e-4a43-b294-5bf484980c12.jpg" width="50%" height="50%"/>
 
 22. dst11
-<img width="1000" alt="크기변환 dst11_screenshot_03 08 2021" src="https://user-images.githubusercontent.com/49335804/128027969-2a058ae3-68e0-4369-a892-a6f0871214c3.png">
+<img width="1000" alt="크기변환 dst11_screenshot_03 08 2021" src="https://user-images.githubusercontent.com/49335804/128027969-2a058ae3-68e0-4369-a892-a6f0871214c3.png">  
+
+23. src12
+<img src="https://user-images.githubusercontent.com/49335804/128901028-6a7260c1-f177-4a8a-a49a-83019b1303de.jpg" width="50%" height="50%"/>  
+
+24. dst12
+![t_img13](<img width="665" alt="dst12_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128901311-d45dad13-3871-47aa-872d-24c0dc2ddc61.png">)  
+
+25. src13
+<img src="https://user-images.githubusercontent.com/49335804/128901189-172638af-83a2-490d-90b2-39c22d90aa8f.jpg" width="50%" height="50%"/>    
+
+26. dst13
+<img width="374" alt="dst13_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128901378-39cb06df-ca36-4db6-ad0f-818b5ee33bd3.png">  
 
 
 
