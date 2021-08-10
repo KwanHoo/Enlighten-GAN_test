@@ -97,7 +97,8 @@ processed = model.predict(img)
 <img src="https://user-images.githubusercontent.com/49335804/128901028-6a7260c1-f177-4a8a-a49a-83019b1303de.jpg" width="50%" height="50%"/>  
 
 24. dst12
-![t_img13](<img width="665" alt="dst12_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128901311-d45dad13-3871-47aa-872d-24c0dc2ddc61.png">)  
+<img width="665" alt="dst12_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128902075-dab3a8b1-ef24-4528-939a-91d32104a97c.png">
+  
 
 25. src13
 <img src="https://user-images.githubusercontent.com/49335804/128901189-172638af-83a2-490d-90b2-39c22d90aa8f.jpg" width="50%" height="50%"/>    
@@ -105,5 +106,17 @@ processed = model.predict(img)
 26. dst13
 <img width="374" alt="dst13_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128901378-39cb06df-ca36-4db6-ad0f-818b5ee33bd3.png">  
 
+
+27. src14
+<img src="https://user-images.githubusercontent.com/49335804/128904649-0d1a27f5-bc1d-4ff2-888e-bf1d11599813.jpg" width="50%" height="50%"/>    
+
+28. dst14
+<img width="281" alt="dst14_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128904884-4bddcbba-f062-4303-b785-e41d6ec14180.png">  
+
+29. src15
+<img src="https://user-images.githubusercontent.com/49335804/128904782-b2a9e499-48ab-43b8-8962-c932d5db2530.jpg" width="50%" height="50%"/>    
+
+30. dst15
+<img width="887" alt="dst15_screenshot_11 08 2021" src="https://user-images.githubusercontent.com/49335804/128904962-75290371-7d4c-4bcb-95a3-eba090fa9dca.png">  
 
 
