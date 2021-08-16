@@ -10,13 +10,10 @@ import cv2
 import time
 
 
-# img14 = cv2.imread('t_img14.jpg')
 model = EnlightenOnnxModel()
-# processed14 = model.predict(img14)
-
 
 root = Tk()
-root.title("LowLight_Improvement(hwankko)")  # 제목
+root.title("저조도개선프로그램(hwankko)")  # 제목
 
 # 파일 추가 (선택한 파일 모두)
 def add_file():          # 복수개의 파일 선택
@@ -42,7 +39,6 @@ def brows_dest_path():
     if folder_selected == '': #사용자가 취소를 누를 때
         print('폴더 선택 취소')
         return
-    # print(folder_selected)
     txt_dest_path.delete(0, END)  # 먼저 저장되어있는거 삭제
     txt_dest_path.insert(0, folder_selected) # 경로란에 들어가짐
     
@@ -55,23 +51,14 @@ def improve_image():
             
         # 포맷
         img_format = cmb_format.get().lower() # 확장자 값 받아와서 소문자로 변경
-        ##########################----- 
-
-        #print(list_file.get(0, END)) # 모든 파일 목록을 가지고 오기
-        # images = [Image.open(x) for x in list_file.get(0, END)]
         a = list_file.get(0)
-        # images = Image.open(a)
         images = cv2.imread(str(a))
 
         curr_time = time.strftime("_%Y%m%d_%H%M%S")  # 시간값 ex)20210814_191320
         processed = model.predict(images)
 
-
-        file_name = ("image{}.".format(curr_time)) + img_format
-        # file_name = ("image.") + img_format
-
+        file_name = ("result_image{}.".format(curr_time)) + img_format
         dest_path = os.path.join(txt_dest_path.get(), file_name)  # 저장경로 설정
-        # processed.save(dest_path)  # 이미지 저장
         cv2.imwrite(file_name, processed )
         
         msgbox.showinfo("알림", "조도개선이 완료되었습니다.")
@@ -131,7 +118,7 @@ path_frame = LabelFrame(root, text="저장경로")
 path_frame.pack(fill="x", padx= 5, pady=5, ipady=5) # fill="x"  : 프레임 늘려줌
 
 txt_dest_path = Entry(path_frame)
-txt_dest_path.pack(side="left", fill="x", expand=True,  padx= 5, pady=5, ipady=4) # ipad : 안쪽 패딩
+txt_dest_path.pack(side="left", fill="x", expand=True,  padx= 5, pady=5, ipady=4, ipadx=40) # ipad : 안쪽 패딩
 
 btn_dest_path = Button(path_frame, text="찾아보기", width=10, command=brows_dest_path)
 btn_dest_path.pack(side="right", padx= 5, pady=5)
@@ -161,7 +148,7 @@ frame_run.pack(fill="x", padx= 5, pady=5)
 btn_close = Button(frame_run, padx=5, pady=5, text="닫기", width=12, command=root.quit)
 btn_close.pack(side="right", padx= 5, pady=5)
 
-btn_start = Button(frame_run, padx=5, pady=5, text="시작", width=12, command= start)
+btn_start = Button(frame_run, padx=5, pady=5, text="저조도개선", width=12, command= start)
 btn_start.pack(side="right", padx= 5, pady=5)
 
 
