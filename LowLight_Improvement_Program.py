@@ -59,7 +59,7 @@ def improve_image():
 
         file_name = ("result_image{}.".format(curr_time)) + img_format
         dest_path = os.path.join(txt_dest_path.get(), file_name)  # 저장경로 설정
-        cv2.imwrite(file_name, processed )
+        cv2.imwrite(dest_path, processed)
         
         msgbox.showinfo("알림", "조도개선이 완료되었습니다.")
 
